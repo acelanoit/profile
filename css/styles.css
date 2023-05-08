@@ -1,0 +1,84 @@
+body {
+  background-color: #6C9BCF;
+  color: #00425A;
+  display: flex;
+  font-family: 'Merriweather Sans', sans-serif;
+  justify-content: center;
+  line-height: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 2px solid #454545;
+  border-radius: 50px;
+  box-shadow: 10px 10px 8px #888888;
+  margin: 20px auto;
+  padding: 20px;
+  width: 50%;
+}
+
+h1,
+h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+img {
+  width: 20%;
+}
+
+i {
+  margin-right: 10px;
+  zoom: 1.5;
+}
+
+.finger-down {
+  display: block;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #000000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #454545;
+}
+
+a:active {
+  text-decoration: none;
+  color: #000000;
+}
+
+@media (max-width: 960px) {
+
+  /* For a screen < 960px, this CSS will be read */
+  .card {
+    width: 60%;
+  }
+}
+
+@media (max-width: 720px) {
+
+  /* For a screen < 720px, this CSS will be read */
+  .card {
+    width: 70%;
+  }
+}
+
+@media (max-width: 540px) {
+
+  /* For a screen < 540px, this CSS will be read */
+  .card {
+    width: 80%;
+  }
+}
